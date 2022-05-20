@@ -1,0 +1,203 @@
+/*
+************************************************************************************************
+************************************************************************************************
+***                                                                                          ***
+***          Copyright (C) 2022  Darshan                                                     ***
+***                                                                                          ***
+***          This program is free software: you can redistribute it and/or modify            ***
+***          it under the terms of the GNU General Public License as published by            ***
+***          the Free Software Foundation, either version 3 of the License, or               ***
+***          (at your option) any later version.                                             ***
+***                                                                                          ***
+***          This program is distributed in the hope that it will be useful,                 ***
+***          but WITHOUT ANY WARRANTY; without even the implied warranty of                  ***
+***          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                   ***
+***          GNU General Public License for more details.                                    ***
+***                                                                                          ***
+***          You should have received a copy of the GNU General Public License               ***
+***          along with this program.  If not, see https://www.gnu.org/licenses.             ***
+***                                                                                          ***
+***                                                                                          ***
+************************************************************************************************
+************************************************************************************************
+*/
+body {
+    /*font-family: 'Righteous', cursive !important;*/
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("../media/nav_icon.png") !important;
+    background-color: transparent !important;
+    stroke: none !important;
+    opacity: 72% !important;
+}
+
+.footer-icons-git {
+    filter: invert(100%);
+}
+
+.footer-icons-git:hover {
+    filter: invert(0%);
+    cursor: pointer;
+}
+
+.footer-icons-mail {
+    filter: grayscale(100%);
+}
+
+.footer-icons-mail:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-image: url("../media/bg.jpg") !important;
+}
+
+.banner-overlay {
+    padding: 280px 0 500px;
+    background-color: RGBA(122, 123, 124, 0.60);
+}
+
+.greeting-gg {
+    font-family: 'Smooch', cursive !important;
+    color: rgba(89, 255, 164, 0.925);
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.greeting-gl {
+    font-family: 'Smooch', cursive !important;
+    color: rgba(140, 255, 86, 0.925);
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.greeting-sub {
+    font-family: 'Righteous', cursive !important;
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.greeting-sub-2 {
+    font-family: 'Smooch', cursive !important;
+    color: white;
+    font-size: 27px;
+    font-weight: 100;
+    padding-bottom: 0%;
+}
+
+.empty-box {
+    width: 18px !important;
+}
+
+.box-body {
+    background-color: aliceblue;
+}
+
+.card-bodi {
+    border-radius: 9px;
+    padding: 18px;
+    box-shadow: 5px 5px 18px #888888;
+    max-width: 50rem;
+    background-color: white;
+    opacity: 72%;
+}
+
+.card-bodi:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.edu-title {
+    font-family: 'Cinzel Decorative', cursive !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+
+
+.edu-info {
+    font-family: 'Cinzel Decorative', cursive !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.edu-institute {
+    font-family: 'Cinzel Decorative', cursive !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+.edu-details {
+    font-family: 'Share', Courier, monospace !important;
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    text-align: center;
+}
+
+.edu-mini {
+    font-family: 'Share', Courier, monospace !important;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    text-align: center;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel Decorative', cursive !important;
+}
+
+.font-alex {
+    font-family: 'Alex Brush', cursive !important;
+}
+
+.font-smooch {
+    font-family: 'Smoooch', cursive !important;
+}
+
+.font-righteous {
+    font-family: 'Righteous', cursive !important;
+}
+
+.edubox {
+    background-color: #168aad;
+}
+
+.banner-2 {
+    background-attachment: fixed;
+    background-image: url("../media/bg2.jpg") !important;
+    background-size: cover;
+}
+
+.banner-2-overlay {
+    padding: 280px 0px 450px;
+    background-color: RGBA(122, 123, 124, 0.84);
+}
+
+.banner-3 {
+    background-attachment: fixed;
+    background-image: url("../media/bg3.jpg") !important;
+}
+
+.banner-3-overlay {
+    padding: 210px 0px 450px;
+    background-color: RGBA(122, 123, 124, 0.81);
+}
+
+.skilltile {
+    color: white;
+}
+
+.skillbox {
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    border-width: 10px;
+    background: white;
+    width: min-content;
+    padding: 26px !important;
+    height: 5.5rem;
+    text-align: center !important;
+}
